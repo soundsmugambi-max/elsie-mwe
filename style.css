@@ -1,0 +1,24 @@
+body {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+.name {
+  color: #ea80b0;
+  font-family: Arial, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 0 20px 0;
+  text-shadow: 0 0 15px #ff5e8a;
+  letter-spacing: 2px;
+}
+body { background: #000; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; overflow: hidden; }
+#ui { position: relative; width: 400px; height: 400px; }
+#heart { position: absolute; inset: 0; animation: spin 20s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.love_word { position: absolute; color: #ea80b0; font-size: 1rem; transform: translate(-100%, -100%) rotate(-90deg); text-shadow: 0 0 10px #ff5e8a; letter-spacing: 2px; white-space: nowrap; }
